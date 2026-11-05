@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println("--- Estoque 7 -> 7 (sem mudanca)");
         produto.alterarQuantidade(7);
-
+ 
         System.out.println("--- Estoque 7 -> 3");
         produto.alterarQuantidade(3);
 

@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class AreaVendas implements AreaInteressada {
     private final Set<String> produtosZerados = new HashSet<>();
-
+ 
     @Override
     public void atualizar(String nomeProduto, int novaQuantidade) {
         if (novaQuantidade == 0) {
